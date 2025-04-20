@@ -27,7 +27,7 @@ test.describe('User login to Demobank', () => {
     await expect(pulpitPage.userNameText).toHaveText(expectedUserName);
   });
 
-  test('unsuccessful login with too short username @login', async ({
+  test('unsuccessful t login with too short username @login', async ({
     page,
   }) => {
     // Arrange
